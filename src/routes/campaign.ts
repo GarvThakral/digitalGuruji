@@ -1,7 +1,7 @@
 import {Router} from "express"
 import { CampaignModel, UserModel } from "../db/mongoose";
 
-const campaignRouter = Router();
+export const campaignRouter = Router();
 
 campaignRouter.post("/create", async (req, res) => {
   const { userId, campaignName, scheduledTime, leadList } = req.body;

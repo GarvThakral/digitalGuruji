@@ -10,7 +10,11 @@ const campaignSchema = new Schema({
   userId: { type: Schema.Types.ObjectId, ref: "User" },
   campaignName: String,
   scheduledTime: Date,
-  leadList: [String]  
+  leadList: [String],
+  sent:{
+    type:Boolean,
+    default:false
+  }
 });
 
 const leadSchema = new Schema({
