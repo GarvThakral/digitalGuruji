@@ -44,7 +44,7 @@ mongoose
       } catch (e) {
         console.error("[Scheduler] Error running scheduler:", e);
       }
-    }, 10 * 1000); 
+    }, 60 * 1000); 
 
     app.listen(3000, () => {
       console.log("🚀 Server listening on port 3000");
