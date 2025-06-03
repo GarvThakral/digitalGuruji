@@ -1,7 +1,7 @@
 # Email Campaign Scheduler
 
 1. **Clone the repo**
-2. 
+
 git clone <url>
 cd <url>
 
