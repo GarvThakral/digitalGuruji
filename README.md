@@ -2,7 +2,7 @@
 
 1. **Clone the repo**
 
-git clone <url>
+git clone <url> , then 
 cd <url>
 
 2. **Install dependencies**  
